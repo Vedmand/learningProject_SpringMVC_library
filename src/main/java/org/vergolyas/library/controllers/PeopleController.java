@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import org.vergolyas.library.dao.BookDAO;
 import org.vergolyas.library.dao.PersonDAO;
 import org.vergolyas.library.models.Person;
 import org.vergolyas.library.util.PersonValidator;
