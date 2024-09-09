@@ -7,7 +7,7 @@ Using:
 -Spring webMVC  
 -Spring jdbc  
 -Hibernate validator  
--Thumeleaf  
+-Thymeleaf  
 -PostgreSQL  
 
 
