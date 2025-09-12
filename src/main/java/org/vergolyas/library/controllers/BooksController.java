@@ -85,14 +85,14 @@ public class BooksController {
     public String assign(@PathVariable("id") int id, @ModelAttribute("person") Person person) {
         bookDAO.setOwnerId(id, person.getId());
 
-        return "redirect:/books" + id;
+        return "redirect:/books/" + id;
     }
 
     @PatchMapping("/{id}/free")
     public String free(@PathVariable("id") int id) {
         bookDAO.removeOwner(id);
 
-        return "redirect:/books" + id;
+        return "redirect:/books/" + id;
     }
 
     @DeleteMapping("/{id}")
